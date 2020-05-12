@@ -18,4 +18,4 @@ def test_exercise():
 
     src.exercise.main()
 
-    assert output[0:4] == ["","","","","Sum: 84"]
+    assert output == ["","","","","","Sum: 84"]
